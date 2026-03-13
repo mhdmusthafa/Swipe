@@ -1,0 +1,1 @@
+{"version": 2, "buildCommand": "npm install", "devCommand": "npm run dev", "installCommand": "npm install", "env": {"SUPABASE_URL": "@supabase_url", "SUPABASE_SERVICE_KEY": "@supabase_key"}, "routes": [{"src": "/api/(.*)", "dest": "/api/$1"}, {"src": "/(.*)", "dest": "/frontend/$1"}]}
